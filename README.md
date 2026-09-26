@@ -36,6 +36,7 @@ WHERE
   AND ActionGeo_FullName IS NOT NULL
 GROUP BY
   event_date, location_name, latitude, longitude;
+```
   ## Risk Classification Framework (ISO 31000 Alignment)
 - **Civil Unrest:** CAMEO Root Code 14 (Protests, Demonstrations, Rallies)
 - **Violent Incidents:** CAMEO Root Codes 18 & 19 (Assaults, Explosions, Armed Conflict)
